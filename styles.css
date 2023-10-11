@@ -255,40 +255,43 @@ section {
 /* ABOUT SECTION */
 #about {
     position: relative;
-}
-
-.about-containers {
+  }
+  
+  .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    display: flex;
-}
-
-.about-details-container {
+  }
+  
+  .about-details-container {
     justify-content: center;
     flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
     display: flex;
-}
-
-.about-pic {
+  }
+  
+  .about-pic {
     border-radius: 2rem;
-}
-
-.arrow {
+  }
+  
+  .arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
-}
-
-.details-containers {
+  }
+  
+  .details-container {
     padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
-    text-align:center;
-}
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
 
 .section-container {
     gap: 4rem;
@@ -298,7 +301,7 @@ section {
 .section__pic-container {
     height: 400px;
     width: 400px;
-    margin: 0 auto;
+    margin: auto 0;
   }
 
 /* EXPERIENCE SECTION */
@@ -338,4 +341,85 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163,163,163);
+}
+
+.about-containers {
+    display: flex;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    background: (250,250,250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor:default;
+}
+
+.email-icon {
+    height: 2.5rem
+}
+
+/* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    margin 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
