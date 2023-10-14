@@ -17,6 +17,10 @@ p {
     color: rgb(85,85,85);
 }
 
+.default-pic {
+    border-radius: 5rem;
+}
+
 /* TRANSITIONS */
 
 a, .btn {
@@ -275,6 +279,8 @@ section {
   
   .about-pic {
     border-radius: 2rem;
+    height: 85%;
+    width: auto
   }
   
   .arrow {
@@ -373,6 +379,10 @@ article .icon {
     display: flex;
 }
 
+.demo {
+    display: none;
+}
+
 /* CONTACT SECTION */
 
 #contact {
@@ -410,14 +420,14 @@ article .icon {
 }
 
 .email-icon {
-    height: 2.5rem
+    height: 2.5rem;
 }
 
 /* FOOTER SECTION */
 
 footer {
     height: 26vh;
-    margin 0 1rem;
+    margin: 0 1rem;
 }
 
 footer p {
