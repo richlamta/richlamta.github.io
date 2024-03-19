@@ -192,7 +192,7 @@ export const Bio = {
       description:
         "Full-stack message board application that allow users to log in and view different forums, similar to Reddit. Users are able to register, login, and create sub-forums. Within the forums, there are posts that users can upvote, downvote, and comment.",
       image:
-        "../images/threadable.png",
+        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/threadable.png",
       tags: [
         "HTML",
         "CSS",
@@ -213,7 +213,7 @@ export const Bio = {
       description:
         "CLI-based application that allows users to log in with user ID. Users are able to send and receive money, as well as see current balance and transaction history.",
       image:
-        "placeholder",
+        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/tenmo.png",
       tags: ["Java", "PostgreSQL", "MVC", "RESTful APIs"],
       github: "https://github.com/richlamta/venmo-lite-CLI",
     },
@@ -224,7 +224,7 @@ export const Bio = {
       description:
         "CLI-based vending machine simulator application that allows users purchase items if quantity is available and can print purchase history. Change is dispensed in coins. ",
       image:
-        "placeholder",
+        "https://www.svgrepo.com/show/276544/vending-machine.svg",
       tags: ["Java", "OOP Fundamentals", "File.io"],
       github: "https://github.com/richlamta/vending-machine-CLI",
 
