@@ -174,7 +174,7 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 6,
+      id: 5,
       title: "Chasing Corgi (Flappy Bird clone)",
       date: "Mar 2024",
       description:
@@ -184,6 +184,18 @@ export const Bio = {
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/richlamta/chasingcorgi",
       webapp: "https://richlamta.github.io/chasingcorgi"
+    },
+    {
+      id: 6,
+      title: "Live Weather",
+      date: "Mar 2024",
+      description:
+        "Created a weather application that will determine if the city is hot or cold by entering city name and fetching temperature via API.",
+      image:
+        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/chasingcorgi.png",
+      tags: ["React.js", "HTML", "CSS"],
+      github: "https://github.com/richlamta/weather",
+      webapp: "https://richlamta.github.io/weather"
     },
     {
       id: 7,
