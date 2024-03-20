@@ -192,7 +192,7 @@ export const Bio = {
       description:
         "Created a weather application that will determine if the city is hot or cold by entering city name and fetching temperature via API.",
       image:
-        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/chasingcorgi.png",
+        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/weather.png",
       tags: ["React.js", "HTML", "CSS"],
       github: "https://github.com/richlamta/weather",
       webapp: "https://richlamta.github.io/weather"
