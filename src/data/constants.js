@@ -175,15 +175,15 @@ export const Bio = {
   export const projects = [
     {
       id: 6,
-      title: "Chasing Corgi (Flappy Bird)",
+      title: "Chasing Corgi (Flappy Bird clone)",
       date: "Mar 2024",
       description:
         "Created a Flappy Bird clone that allows users to play the game by passing through pipes and increasing their score as the game progresses.",
       image:
         "",
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/richlamta/",
-      webapp: "https://github.com/richlamta/"
+      github: "https://github.com/richlamta/chasingcorgi",
+      webapp: "https://richlamta.github.io/chasingcorgi"
     },
     {
       id: 7,
