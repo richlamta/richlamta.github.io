@@ -180,7 +180,7 @@ export const Bio = {
       description:
         "Created a Flappy Bird clone that allows users to play the game by passing through pipes and increasing their score as the game progresses.",
       image:
-        "",
+        "https://raw.githubusercontent.com/richlamta/richlamta.github.io/main/src/images/chasingcorgi.png",
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/richlamta/chasingcorgi",
       webapp: "https://richlamta.github.io/chasingcorgi"
