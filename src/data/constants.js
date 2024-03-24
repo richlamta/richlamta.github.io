@@ -9,7 +9,7 @@ export const Bio = {
       "I graduated Cal Poly Pomona with a degree in Business Administration. After a few years of working various jobs, I found myself in the tech field. I was previously a network technician/junior network engineer and am pursuing a career in software development. I recently finished a coding bootcamp, where the primary focus of my projects were based on Java & PostgreSQL for backend and HTML/CSS/JS/Vue.js for frontend. Currently, I have been exploring React and working on different projects to expand my comfortability with React.",
     github: "https://www.github.com/richlamta",
     resume:
-      "https://www.google.com",
+      "https://drive.google.com/file/d/17Mk4BWMFCNcOCXs70AsunP0R6ZvzzGTf/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/richardlamta/",
   };
   
